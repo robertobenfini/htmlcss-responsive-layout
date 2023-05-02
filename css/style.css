@@ -14,12 +14,31 @@
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+.direction{
+    flex-direction: column;
+}
+
 .space-between{
     justify-content: space-between;
 }
 
+.riga{
+    width: 100%;
+}
+
 .col-100{
     width: 100%;
+}
+
+.col-doppia, .col-33{
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 200px;
+    background-color: yellow;
 }
 /*fine layout*/
 
@@ -51,6 +70,19 @@
 @media screen and (min-width: 768px) {
     .container{
         max-width: 750px;
+    }
+
+    .riga{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .col-doppia{
+        width: calc(100% / 3 * 2 - 20px);
+    }
+
+    .col-33{
+        width: calc(100% / 3 - 20px);
     }
 }
 

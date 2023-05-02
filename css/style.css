@@ -58,6 +58,13 @@
     height: 200px;
     background-color: green;
 }
+
+.col-60, .col-40{
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 200px;
+    background-color: blue;
+}
 /*fine layout*/
 
 /*header*/
@@ -100,6 +107,22 @@
         width: calc(100% / 3 - 20px);
     }
 
+    .col-tablet-50{
+        width: calc(100% / 2 - 20px);
+        margin: 10px;
+        height: 200px;
+    }
+
+    .col-60{
+        width: calc(60% - 20px);
+        margin: 10px;
+    }
+
+    .col-40{
+        width: calc(40% - 20px);
+        margin: 10px;
+    }
+
 }
 
 /*desktop*/
@@ -118,6 +141,10 @@
     
     .col-50{
         width: calc(100% / 2 - 20px);
+    }
+
+    .col-tablet-50, .col-33{
+        width: calc(100% / 3 - 20px);
     }
 }
 

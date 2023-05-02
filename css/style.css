@@ -3,3 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*layout*/
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.col-100{
+    width: 100%;
+}
+/*fine layout*/
+
+/*header*/
+.background-blu{
+    background-color: #0084FD;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.hamburger{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.menu{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    display: none;
+}
+/*fine header*/
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 750px;
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 991px) {
+    .hamburger{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+}
+
+/*large desktop*/
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}

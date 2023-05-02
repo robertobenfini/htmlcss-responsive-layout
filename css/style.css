@@ -40,12 +40,24 @@
     height: 200px;
     background-color: yellow;
 }
+
+.col-50{
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 200px;
+    background-color: green;
+}
 /*fine layout*/
 
 /*header*/
 .background-blu{
     background-color: #0084FD;
 }
+
+.logo, .hamburger, .menu{
+    margin: 10px;
+}
+
 .logo{
     height: 100px;
     width: 100px;
@@ -84,6 +96,7 @@
     .col-33{
         width: calc(100% / 3 - 20px);
     }
+
 }
 
 /*desktop*/
@@ -94,6 +107,10 @@
 
     .menu{
         display: block;
+    }
+    
+    .col-50{
+        width: calc(100% / 2 - 20px);
     }
 }
 

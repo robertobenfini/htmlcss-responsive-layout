@@ -30,6 +30,10 @@
     background-color: #9792E4;
 }
 
+.background-blu{
+    background-color: #0084FD;
+}
+
 .riga{
     width: 100%;
 }
@@ -57,10 +61,6 @@
 /*fine layout*/
 
 /*header*/
-.background-blu{
-    background-color: #0084FD;
-}
-
 .logo{
     height: 100px;
     width: 100px;

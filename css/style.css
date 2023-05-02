@@ -72,29 +72,28 @@
 .col-60, .col-40{
     width: calc(100% - 20px);
     margin: 10px;
-    height: 200px;
     background-color: blue;
+}
+
+.tasto-bianco{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
 }
 /*fine layout*/
 
 /*header*/
-.logo{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-}
-
-.hamburger{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-}
-
 .menu{
-    height: 100px;
-    width: 100px;
-    background-color: green;
     display: none;
+}
+
+.margin-link{
+    margin: 0 10px 0 30px;
+}
+
+.link-nav{
+    text-decoration: none;
+    color: white;
 }
 /*fine header*/
 

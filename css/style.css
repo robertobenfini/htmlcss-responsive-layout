@@ -7,7 +7,7 @@
 
 /*layout*/
 .container{
-    width: 100%;
+    max-width: 320px;
     margin: 0 auto;
 }
 
@@ -43,6 +43,11 @@
     background-color: #333333;
 }
 
+.background-bianco{
+    background-color: white;
+    border-radius: 20px;
+}
+
 .riga{
     width: 100%;
 }
@@ -69,12 +74,10 @@
 .col-50{
     width: calc(100% - 20px);
     margin: 10px;
-    height: 200px;
-    background-color: green;
 }
 
 .col-60, .col-40{
-    width: calc(100% - 20px);
+
     margin: 10px;
     background-color: blue;
 }
@@ -136,6 +139,26 @@
     margin: 50px 0;
 }
 /*fine main 1*/
+
+/*main 2*/
+.img-planning{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.freccia{
+    text-align: center;
+    font-size: 30px;
+}
+
+.fa-arrow-down{
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+/*fine main 2*/
 
 /*tablet*/
 @media screen and (min-width: 768px) {

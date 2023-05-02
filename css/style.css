@@ -35,7 +35,10 @@
 }
 
 .col-100{
-    width: 100%;
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 100px;
+    border: 1px solid black;
 }
 
 .col-doppia, .col-33{
@@ -56,10 +59,6 @@
 /*header*/
 .background-blu{
     background-color: #0084FD;
-}
-
-.logo, .hamburger, .menu{
-    margin: 10px;
 }
 
 .logo{
@@ -105,6 +104,10 @@
 
 /*desktop*/
 @media screen and (min-width: 991px) {
+    .container{
+        max-width: 950px;
+    }
+    
     .hamburger{
         display: none;
     }
